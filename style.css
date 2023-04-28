@@ -1,0 +1,101 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* BOX principale */
+
+.quadro-opaco {
+  background: rgba(6, 0, 0, 0.5);
+  border-radius: 10px 10px 10px 10px;
+  width: 1210px;
+  height: 720px;
+  position: relative;
+  margin-top: 35px;
+  margin-left: 300px;
+  margin-right: 280px;
+  padding-bottom: 100px;
+  font-family: 'poppins', sans-serif; 
+}
+
+/* BOX secondario con dentro tutto il contenuto */
+
+.contenuto {
+  width: 1000px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+/* Intestazione e logo */
+
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 242px;
+  position: relative;
+  top: 20px;
+}
+
+
+  h1{
+    color: #00dd00;
+    text-align: center;
+  }
+
+  /* Parte con menu di navigazione */
+
+  div.menu {
+    width: 1000px;
+    height: 48px;
+    background-color: #00dd00;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .bottoni {
+      position: relative;
+      top: 10px;
+      
+    }
+
+/* Corpo della pagina (scelta monopattino) */
+    
+  .monopattini{
+    color: white;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  .nomi{
+    font-size: 24px;
+  }
+
+  .carica-gino {
+    background-color: #f5b453;
+    border-radius: 5px 5px 5px 5px;
+    width: 355px;
+    height: 31px;
+    color: #f5b453;
+  }
+
+  .carica-mike {
+    background-color: #00dd00;
+    border-radius: 5px 5px 5px 5px;
+    width: 603px;
+    height: 31px;
+    color: #00dd00;
+  }
+
+  .carica-fede {
+    background-color:#be4141;
+    border-radius: 5px 5px 5px 5px;
+    width: 152px;
+    height: 31px;
+    color: #be4141;
+  }
+
+  
